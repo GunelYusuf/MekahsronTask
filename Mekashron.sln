@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1700.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{7DDC6743-41AC-413A-9FFA-1203700634A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{00728C61-4096-4B79-BC29-F07DD1BAE69A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{F722D6EA-129A-4D19-A1E9-CDF00248B5D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mekashron.Application", "Core\Mekashron.Application\Mekashron.Application.csproj", "{400824E3-81DD-4739-AB85-F4A7D98EB6D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mekashron.Domain", "Core\Mekashron.Domain\Mekashron.Domain.csproj", "{87403F1A-A279-48A5-8E80-44A7D43FE6B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mekashron.Infrastructure", "Infrastructure\Mekashron.Infrastructure\Mekashron.Infrastructure.csproj", "{2BC93BD0-E3B0-47AA-BF19-B755676481E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mekashron.Persistence", "Infrastructure\Mekashron.Persistence\Mekashron.Persistence.csproj", "{755F8110-727F-4F4B-9D3F-BD019A5C6EC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mekashron.WebAPI", "Presentation\Mekashron.WebAPI\Mekashron.WebAPI.csproj", "{2397DFF7-6B54-4556-AEF2-CABBD1C0AC6E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{400824E3-81DD-4739-AB85-F4A7D98EB6D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{400824E3-81DD-4739-AB85-F4A7D98EB6D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{400824E3-81DD-4739-AB85-F4A7D98EB6D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{400824E3-81DD-4739-AB85-F4A7D98EB6D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87403F1A-A279-48A5-8E80-44A7D43FE6B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87403F1A-A279-48A5-8E80-44A7D43FE6B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87403F1A-A279-48A5-8E80-44A7D43FE6B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87403F1A-A279-48A5-8E80-44A7D43FE6B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BC93BD0-E3B0-47AA-BF19-B755676481E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BC93BD0-E3B0-47AA-BF19-B755676481E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BC93BD0-E3B0-47AA-BF19-B755676481E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BC93BD0-E3B0-47AA-BF19-B755676481E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{755F8110-727F-4F4B-9D3F-BD019A5C6EC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{755F8110-727F-4F4B-9D3F-BD019A5C6EC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{755F8110-727F-4F4B-9D3F-BD019A5C6EC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{755F8110-727F-4F4B-9D3F-BD019A5C6EC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2397DFF7-6B54-4556-AEF2-CABBD1C0AC6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2397DFF7-6B54-4556-AEF2-CABBD1C0AC6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2397DFF7-6B54-4556-AEF2-CABBD1C0AC6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2397DFF7-6B54-4556-AEF2-CABBD1C0AC6E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E95B8045-835D-4EF2-B378-7CF3AC89E4D6}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{400824E3-81DD-4739-AB85-F4A7D98EB6D8} = {00728C61-4096-4B79-BC29-F07DD1BAE69A}
+		{87403F1A-A279-48A5-8E80-44A7D43FE6B9} = {00728C61-4096-4B79-BC29-F07DD1BAE69A}
+		{2BC93BD0-E3B0-47AA-BF19-B755676481E2} = {7DDC6743-41AC-413A-9FFA-1203700634A5}
+		{755F8110-727F-4F4B-9D3F-BD019A5C6EC6} = {7DDC6743-41AC-413A-9FFA-1203700634A5}
+		{2397DFF7-6B54-4556-AEF2-CABBD1C0AC6E} = {F722D6EA-129A-4D19-A1E9-CDF00248B5D7}
+	EndGlobalSection
+EndGlobal
